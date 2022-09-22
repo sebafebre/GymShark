@@ -12,23 +12,24 @@
     /*  HEADER */
     header{
         background-color: #1FA6FF;
-        
+        display: flex;
+        justify-content: flex-start;
         width: 80%;
         float: right;
         text-align: right;
-        height: 150px; 
+        height: 150px auto; 
     }
     h1{
         color: #FCFCFC;
         float: left; 
-        margin-top: 30px;
-        margin-left: 30px; 
+       /*margin-top: 30px;
+        margin-left: 30px; */
         font-size: 60px;
     }
     .logoShark{
-        float: left;
+       /* float: left;
         margin-left: 30px;
-        margin-top: 0;
+        margin-top: 0;*/
     }
 
 
@@ -108,9 +109,14 @@
         float:right;
         text-align: left;     
     }
+    .PP{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .homepage{
         font-size: 30px;
-        text-align: center;
+        display: flex;
+        align-self:center;
     }
     h2{
         color: #1FA6FF;
@@ -178,7 +184,7 @@
            
     }
     .p3{
-        display: inline-block;
+        /*display: inline-block;*/
         vertical-align: top;
         margin-left: 50px;
         margin-right: 50px;
@@ -198,7 +204,7 @@
         float: left; 
     } 
     .p4{
-        display: inline-block;
+        /*display: inline-block;*/
         vertical-align: top;
         margin-left: 50px;
         margin-right: 50px;
